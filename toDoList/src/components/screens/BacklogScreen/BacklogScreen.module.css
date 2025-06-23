@@ -1,0 +1,10 @@
+.containerBacklogScreen{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.containerAsideTaskList{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}

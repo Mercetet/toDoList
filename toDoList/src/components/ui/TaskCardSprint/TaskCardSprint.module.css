@@ -1,0 +1,103 @@
+.containerPrincipalTaskCardSprint {
+	background: white;
+	border-radius: 12px;
+	padding: 12px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 85%;
+	border: 1px solid #ddd;
+}
+
+.taskCardSprintData {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+
+.taskCardSprintData h2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.taskCardSprintData p {
+	font-size: 0.9rem;
+	color: #333;
+	margin: 2px 0;
+}
+
+.taskStatus {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 8px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid;
+}
+
+.taskStatus.completado {
+	color: limegreen;
+	border-color: limegreen;
+}
+
+.taskStatus.pendiente {
+	color: #fca599;
+	border-color: #fca599;
+}
+
+.taskStatus.enproceso {
+	color: orange;
+	border-color: orange;
+}
+
+.taskCardSprintActions {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	width: 60%;
+	justify-content: space-between;
+}
+
+.taskCardSprintActionsButtons {
+	display: flex;
+	width: 70%;
+	gap: 8px;
+}
+
+.taskCardSprintActions button {
+	background: #61b3de;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 4px 8px;
+	font-size: 0.7rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 2px;
+	transition-duration: 0.4s;
+}
+
+.taskCardSprintActions button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.taskCardSprintActionsWarning button{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	justify-content: space-between;
+	width: 100%;
+	padding: 4px 8px;
+	background-color: #fa553f;
+	color: white;
+	border-radius: 6px;
+	font-size: 0.7rem;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}

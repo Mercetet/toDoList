@@ -1,0 +1,36 @@
+.sprintCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4653CA;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    gap: .5rem;
+    overflow: hidden;
+    width: 85%;
+    text-align: center;
+}
+.sprintCardData{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: .2rem;
+}
+.sprintCardActions{
+    display: flex;
+    justify-content: space-between;
+    gap: .4rem;
+}
+.sprintCardActions button{
+    background-color: #fff;
+    color: #4653CA;
+    border: none;
+    padding: .1rem .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.sprintCardActions button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

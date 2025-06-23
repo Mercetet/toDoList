@@ -1,0 +1,39 @@
+{
+  "backlog": {
+    "tareas": [
+      {
+        "titulo": "tarea 1 ",
+        "descripcion": "tarea 1 desc",
+        "estado": "Completado",
+        "fechaLimite": "2025-04-24",
+        "id": "53dfcf44-dcc3-4cbd-a159-114c2c316587"
+      }
+    ]
+  },
+  "sprintList": {
+    "sprints": [
+      {
+        "fechaInicio": "2025-04-24",
+        "fechaCierre": "2025-04-26",
+        "nombre": "asdasd",
+        "tareas": [
+          {
+            "titulo": "asdasd",
+            "descripcion": "asdasdsadasd",
+            "estado": "Pendiente",
+            "fechaLimite": "2025-04-24",
+            "id": "8a6ffe23-0089-45ae-a75b-3816f13fe382"
+          }
+        ],
+        "id": "94f68855-1ba7-482d-916f-000bf6f902ad"
+      },
+      {
+        "fechaInicio": "2025-04-24",
+        "fechaCierre": "2025-04-29",
+        "nombre": "123123123",
+        "tareas": [],
+        "id": "d5c180bd-eb83-4cab-91d2-ee08303d76f6"
+      }
+    ]
+  }
+}
